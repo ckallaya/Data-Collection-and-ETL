@@ -1,0 +1,1 @@
+psql -h mlpolicylab.db.dssg.io -U ckallaya turnout1_database -f data_county_cleaned.sql

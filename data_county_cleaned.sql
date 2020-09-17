@@ -1,7 +1,7 @@
 SET ROLE ckallaya;
 CREATE SCHEMA IF NOT EXISTS socioecon_schema1;
-DROP TABLE IF EXISTS socioecon_schema.socioecon_table1;
-CREATE TABLE socioecon_schema.socioecon_table1 (
+DROP TABLE IF EXISTS socioecon_schema1.socioecon_table1;
+CREATE TABLE socioecon_schema1.socioecon_table1 (
         a DECIMAL NOT NULL,
         detail VARCHAR NOT NULL,
         unemploy DECIMAL NOT NULL,

@@ -1,5 +1,5 @@
 SET ROLE ckallaya;
-CREATE SCHEMA IF NOT EXISTS socioecon_schema;
+CREATE SCHEMA IF NOT EXISTS socioecon_schema1;
 DROP TABLE IF EXISTS socioecon_schema.socioecon_table1;
 CREATE TABLE socioecon_schema.socioecon_table1 (
         a DECIMAL NOT NULL,
@@ -28,7 +28,7 @@ CREATE TABLE socioecon_schema.socioecon_table1 (
         state_code DECIMAL NOT NULL
 );
 
-\copy socioecon_schema.socioecon_table1 from 'data_county_cleaned.csv' with csv header;
+\copy socioecon_schema1.socioecon_table1 from 'data_county_cleaned.csv' with csv header;
 
 
 
